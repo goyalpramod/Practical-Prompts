@@ -16,6 +16,16 @@ for general best practices while writing a prompt consider reading my [blog](htt
 
 ## Practical Prompts for Coding
 
+ANTHROPIC PROMPT LIBRARY 
+
+Python bug buster
+
+Your task is to analyze the provided Python code snippet, identify any bugs or errors present, and provide a corrected version of the code that resolves these issues. Explain the problems you found in the original code and how your fixes address them. The corrected code should be functional, efficient, and adhere to best practices in Python programming.
+
+Website wizard
+
+Your task is to create a one-page website based on the given specifications, delivered as an HTML file with embedded JavaScript and CSS. The website should incorporate a variety of engaging and interactive design features, such as drop-down menus, dynamic text and content, clickable buttons, and more. Ensure that the design is visually appealing, responsive, and user-friendly. The HTML, CSS, and JavaScript code should be well-structured, efficiently organized, and properly commented for readability and maintainability.
+
 ### Debugging
 
 ### Planning
@@ -60,6 +70,14 @@ The prompt will be used by you, ChatGPT. You will follow the following process:
 ## Practical Prompts for Daily Life
 
 ### Cooking
+
+
+ANTHROPIC PROMPT LIBRARY 
+
+
+Culinary creator
+
+Your task is to generate personalized recipe ideas based on the user’s input of available ingredients and dietary preferences. Use this information to suggest a variety of creative and delicious recipes that can be made using the given ingredients while accommodating the user’s dietary needs, if any are mentioned. For each recipe, provide a brief description, a list of required ingredients, and a simple set of instructions. Ensure that the recipes are easy to follow, nutritious, and can be prepared with minimal additional ingredients or equipment.
 
 ### General queries
 
@@ -156,17 +174,6 @@ Be concise and succinct in your response yet impactful. Where appropriate, use a
 
 ANTHROPIC PROMPT LIBRARY 
 
-Python bug buster
-
-Your task is to analyze the provided Python code snippet, identify any bugs or errors present, and provide a corrected version of the code that resolves these issues. Explain the problems you found in the original code and how your fixes address them. The corrected code should be functional, efficient, and adhere to best practices in Python programming.
-
-Website wizard
-
-Your task is to create a one-page website based on the given specifications, delivered as an HTML file with embedded JavaScript and CSS. The website should incorporate a variety of engaging and interactive design features, such as drop-down menus, dynamic text and content, clickable buttons, and more. Ensure that the design is visually appealing, responsive, and user-friendly. The HTML, CSS, and JavaScript code should be well-structured, efficiently organized, and properly commented for readability and maintainability.
-
-Culinary creator
-
-Your task is to generate personalized recipe ideas based on the user’s input of available ingredients and dietary preferences. Use this information to suggest a variety of creative and delicious recipes that can be made using the given ingredients while accommodating the user’s dietary needs, if any are mentioned. For each recipe, provide a brief description, a list of required ingredients, and a simple set of instructions. Ensure that the recipes are easy to follow, nutritious, and can be prepared with minimal additional ingredients or equipment.
 
 Code clarifier
 
