@@ -100,19 +100,34 @@ Many of these prompts are taken from the [Anthropic Prompt Library](https://docs
 Python bug buster
 
 ```markdown
-Your task is to analyze the provided Python code snippet, identify any bugs or errors present, and provide a corrected version of the code that resolves these issues. Explain the problems you found in the original code and how your fixes address them. The corrected code should be functional, efficient, and adhere to best practices in Python programming.
+Your task is to analyze the provided Python code snippet, identify any bugs or errors present, and provide a corrected version of the code that resolves these issues. 
+Explain the problems you found in the original code and how your fixes address them. The corrected code should be functional, efficient, and adhere to best practices in 
+Python programming.
 ```
 
 Code clarifier
 
 ```markdown
-Your task is to take the code snippet provided and explain it in simple, easy-to-understand language. Break down the code’s functionality, purpose, and key components. Use analogies, examples, and plain terms to make the explanation accessible to someone with minimal coding knowledge. Avoid using technical jargon unless absolutely necessary, and provide clear explanations for any jargon used. The goal is to help the reader understand what the code does and how it works at a high level.
+Your task is to take the code snippet provided and explain it in simple, 
+easy-to-understand language. Break down the code’s functionality, purpose, 
+and key components. Use analogies, examples, and plain terms to make the 
+explanation accessible to someone with minimal coding knowledge. Avoid using 
+technical jargon unless absolutely necessary, and provide clear explanations 
+for any jargon used. The goal is to help the reader understand what the code 
+does and how it works at a high level.
 ```
 
 Website wizard
 
 ```markdown
-Your task is to create a one-page website based on the given specifications, delivered as an HTML file with embedded JavaScript and CSS. The website should incorporate a variety of engaging and interactive design features, such as drop-down menus, dynamic text and content, clickable buttons, and more. Ensure that the design is visually appealing, responsive, and user-friendly. The HTML, CSS, and JavaScript code should be well-structured, efficiently organized, and properly commented for readability and maintainability.
+Your task is to create a one-page website based on the given specifications, 
+delivered as an HTML file with embedded JavaScript and CSS. The website 
+should incorporate a variety of engaging and interactive design features, 
+such as drop-down menus, dynamic text and content, clickable buttons, and 
+more. Ensure that the design is visually appealing, responsive, and 
+user-friendly. The HTML, CSS, and JavaScript code should be well-structured, 
+efficiently organized, and properly commented for readability and 
+maintainability.
 ```
 
 I found this [blog](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/?s=08) to be one of the absolute best guide on how to use LLMs for programming.
@@ -137,7 +152,12 @@ An LLM can also be used to find mistakes and possible improvement in one's writi
 - Lesson planner
 
 ```markdown
-Your task is to create a comprehensive, engaging, and well-structured lesson plan on the given subject. The lesson plan should be designed for a 60-minute class session and should cater to a specific grade level or age group. Begin by stating the lesson objectives, which should be clear, measurable, and aligned with relevant educational standards. Next, provide a detailed outline of the lesson, breaking it down into an introduction, main activities, and a conclusion. For each section, describe the teaching methods, learning activities, and resources you will use to effectively convey the content and engage the students. Finally, describe the assessment methods you will employ to evaluate students’ understanding and mastery of the lesson objectives. The lesson plan should be well-organized, easy to follow, and promote active learning and critical thinking.
+Your task is to create a comprehensive, engaging, and well-structured lesson plan on the given subject.
+The lesson plan should be designed for a 60-minute class session and should cater to a specific grade level or age group.
+Begin by stating the lesson objectives, which should be clear, measurable, and aligned with relevant educational standards. Next, provide a detailed outline of the lesson, breaking it down into an introduction, main activities, and a conclusion.
+For each section, describe the teaching methods, learning activities, and resources you will use to effectively convey the content and engage the students.
+Finally, describe the assessment methods you will employ to evaluate students’ understanding and mastery of the lesson objectives.
+The lesson plan should be well-organized, easy to follow, and promote active learning and critical thinking.
 ```
 
 - Reading partner 
@@ -164,7 +184,10 @@ This is again from the Anthropic Prompt Library, a rather simple but amazing pro
 Culinary creator
 
 ```markdown
-Your task is to generate personalized recipe ideas based on the user’s input of available ingredients and dietary preferences. Use this information to suggest a variety of creative and delicious recipes that can be made using the given ingredients while accommodating the user’s dietary needs, if any are mentioned. For each recipe, provide a brief description, a list of required ingredients, and a simple set of instructions. Ensure that the recipes are easy to follow, nutritious, and can be prepared with minimal additional ingredients or equipment.
+Your task is to generate personalized recipe ideas based on the user’s input of available ingredients and dietary preferences.
+Use this information to suggest a variety of creative and delicious recipes that can be made using the given ingredients while accommodating the user’s dietary needs, if any are mentioned.
+For each recipe, provide a brief description, a list of required ingredients, and a simple set of instructions.
+Ensure that the recipes are easy to follow, nutritious, and can be prepared with minimal additional ingredients or equipment.
 ```
 
 ## Practical Prompts for Smol LLMs
@@ -190,7 +213,8 @@ This is an amazing [gist](https://gist.github.com/Maharshi-Pandya/4aeccbe1dbaa7f
 Many times we are in a hurry and just want a good response without the model making many assumptions that we need to fix. This single sentence has saved me many times in that scenario
 
 ```markdown
-Ask me all the questions about ambiguity in my statement, that will help you provide me with a better answer once I have answered you.
+Ask me all the questions about ambiguity in my statement,
+that will help you provide me with a better answer once I have answered you.
 ```
 
 ## Wild usecases of LLMs
@@ -200,13 +224,15 @@ Your creativity is the limit when it comes to how you use an LLM, here are some 
 - Learning something through an anime or movie story. Let's say you wish to learn linear algebra. Then you can ask an LLM something along the lines
 
 ```markdown
-You are an expert teacher who will help me learn Linear algebra step by step from scratch, but we will follow the narrative of Naruto. I will be naruto and you will be kakashi, give me challenges and we will progress through the story by learning linear algebra.
+You are an expert teacher who will help me learn Linear algebra step by step from scratch, but we will follow the narrative of Naruto.
+I will be naruto and you will be kakashi, give me challenges and we will progress through the story by learning linear algebra.
 ```
 
 - Improving your life
 
 ```markdown
-Ask me personality and personal questions to understand me, after you have completely understood the kind of person I am. Tell me what am I lacking in my life and how I can improve it.
+Ask me personality and personal questions to understand me, after you have completely understood the kind of person I am.
+Tell me what am I lacking in my life and how I can improve it.
 ```
 
 - Debate with it, most of us have believes. Strong believes, which if not challenged. Stay with us for the rest of our lives. That is when we can use an LLM to get a different perspective
