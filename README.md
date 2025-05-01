@@ -54,7 +54,7 @@ The prompt will be used by you, ChatGPT. You will follow the following process:
    the prompt in the Revised prompt section until I say we are done.
 ```
 
-(P.S. you can always attach one of pdfs on prompting to the llm while using the prompt builder to turn it into a super prompt builder, like give the google guide plus the above prompt to have the best prompt out there)
+(P.S. you can always attach one of PDFs on prompting to the llm while using the prompt builder to turn it into a super prompt builder, like give the google guide plus the above prompt to have the best prompt out there)
 
 ## Better structure of a good prompt
 
@@ -234,13 +234,17 @@ Taken from [here](https://www.superannotate.com/blog/llm-prompting-tricks)
 
 - Rewrite the user query with all the assumptions and necessary changes, then start producing answer
 
-- Conclude the conversation, if you had a long conversation 
+- Ask the LLM Conclude the conversation. This summarizes everything that you talked about so far, helping you reach a good conclusion. 
 
 ## Jailbreaking
 
 I do not endorse that you do any of these, but it is always good to be aware of the problems and know how it is done. I have attached some resources that can help you learn about these. Models evolve and so do the guard rails, so what works today. Won't work tomorrow.
 
 One of the best places to see model jailbreaking in practice is to follow this [account](https://github.com/elder-plinius)
+
+- Prompt Injection using emojis, [Paper](https://arxiv.org/html/2411.01077v1)
+- Guide on [Prompt Injection](https://learnprompting.org/docs/prompt_hacking/injection?srsltid=AfmBOoq-lAHOjXHjB2VG5SXcTTdcJj-kbgZSkxbI-djKkWXITajitr2q)
+- Popular [Adversarial Prompting](https://www.promptingguide.ai/risks/adversarial)
 
 ## Disclaimer
 
@@ -254,12 +258,12 @@ LLMs are currently the wild west, something which is best practice today. Might 
 - [Reddit thread on prompting](https://www.reddit.com/r/ChatGPT/comments/13cklzh/what_are_some_of_your_favorite_chatgpt_prompts/)
 - [HF Prompt dataset](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
 - [OpenAI guide to prompting](https://platform.openai.com/docs/guides/prompt-engineering)
-- [Medium article on prompting](https://medium.com/the-modern-scientist/best-prompt-techniques-for-best-llm-responses-24d2ff4f6bca) Good stuff
-- [Awesome Chatgpt Prompts](https://github.com/f/awesome-chatgpt-prompts) Mostly niece and unpractical prompts imo
+- [Medium article on prompting](https://medium.com/the-modern-scientist/best-prompt-techniques-for-best-llm-responses-24d2ff4f6bca)
+- [Awesome Chatgpt Prompts](https://github.com/f/awesome-chatgpt-prompts) 
 - [Awesome Prompts](https://github.com/ai-boost/awesome-prompts)
-- [The Big Prompt Library](https://github.com/0xeb/TheBigPromptLibrary/tree/main/SystemPrompts) -> the system prompt section is pretty dope.
-- [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library/library) -> A nice library of good prompts. Have a look
-- [Cursor Director](https://cursor.directory/rules) A bit of an overkill in my opinion, I like my language models to be free and imaginative. Check it out if these are to your liking.
+- [The Big Prompt Library](https://github.com/0xeb/TheBigPromptLibrary/tree/main/SystemPrompts)
+- [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library/library) 
+- [Cursor Director](https://cursor.directory/rules)
 
 ## Contribution
 
