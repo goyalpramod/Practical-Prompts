@@ -1,4 +1,23 @@
-# Practical-Prompts
+```markdown
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   ██████╗ ██████╗  █████╗  ██████╗████████╗██╗ ██████╗ █████╗██╗     ║
+║   ██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██║██╔════╝██╔══██╗██║     ║
+║   ██████╔╝██████╔╝███████║██║        ██║   ██║██║     ███████║██║     ║
+║   ██╔═══╝ ██╔══██╗██╔══██║██║        ██║   ██║██║     ██╔══██║██║     ║
+║   ██║     ██║  ██║██║  ██║╚██████╗   ██║   ██║╚██████╗██║  ██║███████╗║
+║   ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝║
+║                                                              ║
+║   ██████╗ ██████╗  ██████╗ ███╗   ███╗██████╗ ████████╗███████╗    ║
+║   ██╔══██╗██╔══██╗██╔═══██╗████╗ ████║██╔══██╗╚══██╔══╝██╔════╝    ║
+║   ██████╔╝██████╔╝██║   ██║██╔████╔██║██████╔╝   ██║   ███████╗    ║
+║   ██╔═══╝ ██╔══██╗██║   ██║██║╚██╔╝██║██╔═══╝    ██║   ╚════██║    ║
+║   ██║     ██║  ██║╚██████╔╝██║ ╚═╝ ██║██║        ██║   ███████║    ║
+║   ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝        ╚═╝   ╚══════╝    ║
+║                                                              ║
+║           BE BETTER, PROMPT SMARTER                          ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
 A collection of the most practical and useful LLM prompts. Along with guides to improve by oneself.
 
@@ -12,14 +31,15 @@ Input Data - the input or question that we are interested to find a response for
 
 Output Indicator - the type or format of the output.
 
-For general best practices while writing a prompt consider reading my [blog](https://goyalpramod.github.io/blogs/AI_agents_from_first_principles/#prompts) on it.
-For a more thorough guide, consider reading [google's prompt engineering](https://www.kaggle.com/whitepaper-prompt-engineering) guide
+For general best practices while writing a prompt consider reading my [blog](https://goyalpramod.github.io/blogs/AI_agents_from_first_principles/#prompts) on it.\
+For a more thorough guide, consider reading [google's prompt engineering](https://www.kaggle.com/whitepaper-prompt-engineering) guide.\
+For an even more advanced guide consider reading this [paper](https://arxiv.org/pdf/2406.06608) by researches from OpenAI, Stanford, Microsoft and many more contributors.
 
 ## Mother of all Prompts
 
 You can have different prompts for different use cases and in each use case you can have various sub cases, this prompt builder is made to address that and help you create an amazing prompt to help you out.
 
-`Inspired from [here](https://www.reddit.com/r/ChatGPT/comments/13cklzh/what_are_some_of_your_favorite_chatgpt_prompts/)`
+Inspired from this [reddit post](https://www.reddit.com/r/ChatGPT/comments/13cklzh/what_are_some_of_your_favorite_chatgpt_prompts/)
 
 ```markdown
 I want you to become my Prompt engineer. Your goal is to help me craft the best possible prompt for my needs.
@@ -38,21 +58,22 @@ The prompt will be used by you, ChatGPT. You will follow the following process:
 
 ## Better structure of a good prompt
 
-COSTAR. Taken from this [article](https://medium.com/the-modern-scientist/best-prompt-techniques-for-best-llm-responses-24d2ff4f6bca)
+COSTAR. Taken from this [article](https://medium.com/the-modern-scientist/best-prompt-techniques-for-best-llm-responses-24d2ff4f6bca).
 
-# CONTEXT
+```markdown
+#CONTEXT#
 
 I want to share our company's new product feature for serving open source large language models at the lowest cost and lowest latency. The product feature is Anyscale Endpoints, which serves all Llama series models and the Mistral series too.
 
 #############
 
-# OBJECTIVE
+#OBJECTIVE#
 
 Create a LinkedIn post for me, which aims at Gen AI application developers to click the blog link at the end of the post that explains the features, a handful of how-to-start guides and tutorials, and how to register to use it, at no cost.
 
 #############
 
-# STYLE
+#STYLE#
 
 Follow the simple writing style common in communications aimed at developers such as one practised and advocated by Stripe.
 
@@ -60,15 +81,16 @@ Be persuasive yet maintain a neutral tone. Avoid sounding too much like sales or
 
 #############
 
-# AUDIENCE
+#AUDIENCE#
 
 Tailor the post toward developers seeking to look at an alternative to closed and expensive LLM models for inference, where transparency, security, control, and cost are all imperatives for their use cases.
 
 #############
 
-# RESPONSE
+#RESPONSE#
 
 Be concise and succinct in your response yet impactful. Where appropriate, use appropriate emojies.
+```
 
 ## Practical Prompts for Coding
 
@@ -98,19 +120,32 @@ Additionally this is one of the best [resources](https://cursor.directory/) if y
 
 ## Practical Prompts for Creative Writing
 
-### Writing
+The best way to use LLMs for writing in my opinion is by being mindful of the following 
+
+- Platform -> X, LinkedIn, Email, Uni paper etc 
+- Audience -> Beginner, Researchers, Practitioner
+- Length -> Short, Long 
+- Style/Tone -> Funny, Witty, Serious
+
+I like to write on my own so I usually give an LLM what I have written and ask it to improve the grammar and logical flow. Meanwhile preserving my style and tone of writing. 
+
+An LLM can also be used to find mistakes and possible improvement in one's writing. 
 
 ## Practical Prompts for learning
 
-Lesson planner
+- Lesson planner
 
 ```markdown
 Your task is to create a comprehensive, engaging, and well-structured lesson plan on the given subject. The lesson plan should be designed for a 60-minute class session and should cater to a specific grade level or age group. Begin by stating the lesson objectives, which should be clear, measurable, and aligned with relevant educational standards. Next, provide a detailed outline of the lesson, breaking it down into an introduction, main activities, and a conclusion. For each section, describe the teaching methods, learning activities, and resources you will use to effectively convey the content and engage the students. Finally, describe the assessment methods you will employ to evaluate students’ understanding and mastery of the lesson objectives. The lesson plan should be well-organized, easy to follow, and promote active learning and critical thinking.
 ```
 
-## Practical Prompts for Prompt Crafting
+- Reading partner 
 
-### Text2Img models
+This is one of my favorite use cases. In this I just give the LLM an extracted chapter from a book (or the entire book if it fits the context window) or the paper I am reading. And first ask it for a summary so I have a general context of what I am about to read. 
+
+Then while reading, I often ask it questions about things I do not understand. 
+
+In the end I sometimes ask it for questions that I can answer to test my knowledge. Or ask it for a conclusion. 
 
 ## Practical Prompts for Daily Life
 
@@ -127,11 +162,9 @@ This is again from the Anthropic Prompt Library, a rather simple but amazing pro
 
 Culinary creator
 
+```markdown
 Your task is to generate personalized recipe ideas based on the user’s input of available ingredients and dietary preferences. Use this information to suggest a variety of creative and delicious recipes that can be made using the given ingredients while accommodating the user’s dietary needs, if any are mentioned. For each recipe, provide a brief description, a list of required ingredients, and a simple set of instructions. Ensure that the recipes are easy to follow, nutritious, and can be prepared with minimal additional ingredients or equipment.
-
-### General queries
-
-### Medical
+```
 
 ## Practical Prompts for Smol LLMs
 
@@ -155,7 +188,9 @@ This is an amazing [gist](https://gist.github.com/Maharshi-Pandya/4aeccbe1dbaa7f
 
 Many times we are in a hurry and just want a good response without the model making many assumptions that we need to fix. This single sentence has saved me many times in that scenario
 
-- Ask me all the questions about ambiguity in my statement, that will help you provide me with a better answer once I have answered you [IMPROVE_THIS]
+```markdown
+Ask me all the questions about ambiguity in my statement, that will help you provide me with a better answer once I have answered you.
+```
 
 ## Wild usecases of LLMs
 
@@ -185,16 +220,21 @@ I believe "{your opinion}" And I would like to learn a different perspective abo
 
 - To inquire about a specific topic, idea, or any information and you want to test your understanding, you can use the following phrase: “Teach me the [any theorem/topic/rule name] and include a test at the end, but don’t give me the answers and then tell me if I got the answer right when I respond.” (Taken from [here](https://www.superannotate.com/blog/llm-prompting-tricks))
 
+- I often use images created from Text2Img models in my blogs, and using an LLM to help you create that can be extremely useful. One downside that I have faced is that you have to give some good example of prompts first. Because nowadays text2img models follow a sentence, but back in the SD days. Comma separated specific words had to be given, So even now LLMs give outputs like "1boy, tree, apple".
+
+- Character I am like, you can use the previous life improvement tip to even create a nice "about me". Also that same prompt can be used to find good shows and movies based on the kind of person you are!!
+
 I would love to grow this section and am happy to hear from you about all the weird ways you use an LLM!!!
 
 ### Simple LLM Tricks
 
 Taken from [here](https://www.superannotate.com/blog/llm-prompting-tricks)
 
--Use output primers
-Output primers involve concluding your prompt with the beginning of the desired output. Use output primers by ending your prompt with the start of the expected response.
+- Use output primers, Output primers involve concluding your prompt with the beginning of the desired output. Use output primers by ending your prompt with the start of the expected response.
 
 - Rewrite the user query with all the assumptions and necessary changes, then start producing answer
+
+- Conclude the conversation, if you had a long conversation 
 
 ## Jailbreaking
 
