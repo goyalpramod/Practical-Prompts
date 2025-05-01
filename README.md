@@ -21,19 +21,6 @@
 
 A collection of the most practical and useful LLM prompts. Along with guides to improve by oneself.
 
-## Basic Structure of a good prompt
-
-Instruction - a specific task or instruction you want the model to perform
-
-Context - external information or additional context that can steer the model to better responses
-
-Input Data - the input or question that we are interested to find a response for
-
-Output Indicator - the type or format of the output.
-
-For general best practices while writing a prompt consider reading my [blog](https://goyalpramod.github.io/blogs/AI_agents_from_first_principles/#prompts) on it.\
-For a more thorough guide, consider reading [google's prompt engineering](https://www.kaggle.com/whitepaper-prompt-engineering) guide.\
-For an even more advanced guide consider reading this [paper](https://arxiv.org/pdf/2406.06608) by researches from OpenAI, Stanford, Microsoft and many more contributors.
 
 ## Mother of all Prompts
 
@@ -55,6 +42,20 @@ The prompt will be used by you, ChatGPT. You will follow the following process:
 ```
 
 (P.S. you can always attach one of PDFs on prompting to the llm while using the prompt builder to turn it into a super prompt builder, like give the google guide plus the above prompt to have the best prompt out there)
+
+## Basic Structure of a good prompt
+
+Instruction - a specific task or instruction you want the model to perform
+
+Context - external information or additional context that can steer the model to better responses
+
+Input Data - the input or question that we are interested to find a response for
+
+Output Indicator - the type or format of the output.
+
+For general best practices while writing a prompt consider reading my [blog](https://goyalpramod.github.io/blogs/AI_agents_from_first_principles/#prompts) on it.\
+For a more thorough guide, consider reading [google's prompt engineering](https://www.kaggle.com/whitepaper-prompt-engineering) guide.\
+For an even more advanced guide consider reading this [paper](https://arxiv.org/pdf/2406.06608) by researches from OpenAI, Stanford, Microsoft and many more contributors.
 
 ## Better structure of a good prompt
 
